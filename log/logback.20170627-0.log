@@ -1,0 +1,485 @@
+20:52:34:639 SpringBootJpa {restartedMain} INFO  com.start - Starting start on DESKTOP-V5BMFMN with PID 8812 (E:\ideaWork\springbootibatis\target\classes started by Administrator in E:\ideaWork\springbootibatis)
+20:52:34:641 SpringBootJpa {restartedMain} INFO  com.start - The following profiles are active: dev
+20:52:34:682 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@407c0397: startup date [Tue Jun 27 20:52:34 CST 2017]; root of context hierarchy
+20:52:34:792 SpringBootJpa {background-preinit} INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+20:52:36:106 SpringBootJpa {restartedMain} WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.SpringBoot.ibats.mapper.*]' package. Please check your configuration.
+20:52:36:185 SpringBootJpa {restartedMain} WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.start]' package. Please check your configuration.
+20:52:36:449 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f774b00c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:52:36:830 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9485 (http)
+20:52:36:837 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+20:52:36:838 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+20:52:36:887 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:52:36:887 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2205 ms
+20:52:37:008 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+20:52:37:009 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'webServlet' to [/h2-console/*]
+20:52:37:012 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:52:37:012 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:52:37:013 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:52:37:013 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+20:52:37:199 SpringBootJpa {restartedMain} WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.SpringBoot.ibats.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+20:52:37:202 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Stopping service Tomcat
+20:52:37:269 SpringBootJpa {restartedMain} INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+20:52:37:401 SpringBootJpa {restartedMain} ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in com.SpringBoot.ibats.service.impl.UserServiceImpl required a bean of type 'com.SpringBoot.ibats.mapper.UserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.SpringBoot.ibats.mapper.UserMapper' in your configuration.
+
+21:00:09:216 SpringBootJpa {restartedMain} INFO  com.start - Starting start on DESKTOP-V5BMFMN with PID 12868 (E:\ideaWork\springbootibatis\target\classes started by Administrator in E:\ideaWork\springbootibatis)
+21:00:09:218 SpringBootJpa {restartedMain} INFO  com.start - The following profiles are active: dev
+21:00:09:267 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45329e47: startup date [Tue Jun 27 21:00:09 CST 2017]; root of context hierarchy
+21:00:09:422 SpringBootJpa {background-preinit} INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+21:00:10:787 SpringBootJpa {restartedMain} WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.SpringBoot.ibats.mapper.*]' package. Please check your configuration.
+21:00:10:869 SpringBootJpa {restartedMain} WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.start]' package. Please check your configuration.
+21:00:11:135 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6673518] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:00:11:527 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9485 (http)
+21:00:11:533 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+21:00:11:534 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+21:00:11:585 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:00:11:585 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2318 ms
+21:00:11:694 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+21:00:11:698 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+21:00:11:699 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+21:00:11:699 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+21:00:11:699 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+21:00:11:735 SpringBootJpa {restartedMain} WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.SpringBoot.ibats.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+21:00:11:738 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Stopping service Tomcat
+21:00:11:757 SpringBootJpa {restartedMain} INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+21:00:11:872 SpringBootJpa {restartedMain} ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in com.SpringBoot.ibats.service.impl.UserServiceImpl required a bean of type 'com.SpringBoot.ibats.mapper.UserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.SpringBoot.ibats.mapper.UserMapper' in your configuration.
+
+21:02:31:380 SpringBootJpa {restartedMain} INFO  com.start - Starting start on DESKTOP-V5BMFMN with PID 5996 (E:\ideaWork\springbootibatis\target\classes started by Administrator in E:\ideaWork\springbootibatis)
+21:02:31:382 SpringBootJpa {restartedMain} INFO  com.start - The following profiles are active: dev
+21:02:31:448 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@445550bd: startup date [Tue Jun 27 21:02:31 CST 2017]; root of context hierarchy
+21:02:31:666 SpringBootJpa {background-preinit} INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+21:02:33:259 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bff900de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:02:33:646 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9485 (http)
+21:02:33:653 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+21:02:33:653 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+21:02:33:704 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:02:33:704 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2256 ms
+21:02:33:814 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+21:02:33:817 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+21:02:33:818 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+21:02:33:818 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+21:02:33:818 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+21:02:34:217 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@445550bd: startup date [Tue Jun 27 21:02:31 CST 2017]; root of context hierarchy
+21:02:34:223 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+21:02:34:263 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAll]}" onto public void com.SpringBoot.ibats.controller.UserController.findAll()
+21:02:34:264 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.home()
+21:02:34:264 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/now]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.hehe()
+21:02:34:264 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/spf]}" onto java.lang.String com.SpringBoot.ibats.test.test2.home()
+21:02:34:266 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+21:02:34:267 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+21:02:34:304 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+21:02:34:331 SpringBootJpa {restartedMain} INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:02:34:509 SpringBootJpa {restartedMain} WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+21:02:34:614 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+21:02:34:615 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+21:02:34:619 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+21:02:34:629 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9485"]
+21:02:34:636 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9485]
+21:02:34:644 SpringBootJpa {restartedMain} INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+21:02:34:657 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9485 (http)
+21:02:34:660 SpringBootJpa {restartedMain} INFO  com.start - Started start in 3.685 seconds (JVM running for 4.054)
+21:03:35:228 SpringBootJpa {http-nio-9485-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+21:03:35:228 SpringBootJpa {http-nio-9485-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+21:03:35:242 SpringBootJpa {http-nio-9485-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+21:03:53:382 SpringBootJpa {http-nio-9485-exec-1} ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.SpringBoot.ibats.mapper.UserMapper.findAll] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.SpringBoot.ibats.mapper.UserMapper.findAll
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:214)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:48)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:59)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy60.findAll(Unknown Source)
+	at com.SpringBoot.ibats.service.impl.UserServiceImpl.findAll(UserServiceImpl.java:25)
+	at com.SpringBoot.ibats.controller.UserController.findAll(UserController.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+21:12:22:148 SpringBootJpa {restartedMain} INFO  com.start - Starting start on DESKTOP-V5BMFMN with PID 2268 (E:\ideaWork\springbootibatis\target\classes started by Administrator in E:\ideaWork\springbootibatis)
+21:12:22:151 SpringBootJpa {restartedMain} INFO  com.start - The following profiles are active: dev
+21:12:22:263 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45329e47: startup date [Tue Jun 27 21:12:22 CST 2017]; root of context hierarchy
+21:12:22:329 SpringBootJpa {background-preinit} INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+21:12:24:108 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac22c5b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:12:24:492 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9485 (http)
+21:12:24:500 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+21:12:24:500 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+21:12:24:549 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:12:24:550 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2286 ms
+21:12:24:658 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+21:12:24:661 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+21:12:24:661 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+21:12:24:662 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+21:12:24:662 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+21:12:25:049 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45329e47: startup date [Tue Jun 27 21:12:22 CST 2017]; root of context hierarchy
+21:12:25:055 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+21:12:25:097 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAll]}" onto public void com.SpringBoot.ibats.controller.UserController.findAll()
+21:12:25:098 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.home()
+21:12:25:098 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/now]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.hehe()
+21:12:25:098 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/spf]}" onto java.lang.String com.SpringBoot.ibats.test.test2.home()
+21:12:25:101 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+21:12:25:101 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+21:12:25:139 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+21:12:25:167 SpringBootJpa {restartedMain} INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:12:25:347 SpringBootJpa {restartedMain} WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+21:12:25:455 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+21:12:25:456 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+21:12:25:460 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+21:12:25:472 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9485"]
+21:12:25:481 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9485]
+21:12:25:489 SpringBootJpa {restartedMain} INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+21:12:25:500 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9485 (http)
+21:12:25:504 SpringBootJpa {restartedMain} INFO  com.start - Started start in 3.795 seconds (JVM running for 4.155)
+21:15:03:280 SpringBootJpa {http-nio-9485-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+21:15:03:281 SpringBootJpa {http-nio-9485-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+21:15:03:296 SpringBootJpa {http-nio-9485-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+21:15:13:283 SpringBootJpa {http-nio-9485-exec-1} ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.SpringBoot.ibats.mapper.UserMapper.findAll] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.SpringBoot.ibats.mapper.UserMapper.findAll
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:214)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:48)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:59)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy60.findAll(Unknown Source)
+	at com.SpringBoot.ibats.service.impl.UserServiceImpl.findAll(UserServiceImpl.java:25)
+	at com.SpringBoot.ibats.controller.UserController.findAll(UserController.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+21:18:26:006 SpringBootJpa {restartedMain} INFO  com.start - Starting start on DESKTOP-V5BMFMN with PID 6076 (E:\ideaWork\springbootibatis\target\classes started by Administrator in E:\ideaWork\springbootibatis)
+21:18:26:006 SpringBootJpa {restartedMain} INFO  com.start - The following profiles are active: dev
+21:18:26:100 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@aaef192: startup date [Tue Jun 27 21:18:26 CST 2017]; root of context hierarchy
+21:18:26:225 SpringBootJpa {background-preinit} INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+21:18:27:835 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9742a9a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:18:28:210 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9485 (http)
+21:18:28:210 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+21:18:28:210 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+21:18:28:256 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:18:28:256 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2156 ms
+21:18:28:366 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+21:18:28:366 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+21:18:28:366 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+21:18:28:366 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+21:18:28:366 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+21:18:28:741 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@aaef192: startup date [Tue Jun 27 21:18:26 CST 2017]; root of context hierarchy
+21:18:28:741 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+21:18:28:772 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAll]}" onto public void com.SpringBoot.ibats.controller.UserController.findAll()
+21:18:28:772 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.home()
+21:18:28:772 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/now]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.hehe()
+21:18:28:772 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/spf]}" onto java.lang.String com.SpringBoot.ibats.test.test2.home()
+21:18:28:772 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+21:18:28:788 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+21:18:28:819 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+21:18:28:835 SpringBootJpa {restartedMain} INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:18:29:006 SpringBootJpa {restartedMain} WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+21:18:29:100 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+21:18:29:100 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+21:18:29:116 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+21:18:29:116 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9485"]
+21:18:29:116 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9485]
+21:18:29:132 SpringBootJpa {restartedMain} INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+21:18:29:147 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9485 (http)
+21:18:29:147 SpringBootJpa {restartedMain} INFO  com.start - Started start in 3.559 seconds (JVM running for 3.959)
+21:18:54:375 SpringBootJpa {http-nio-9485-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+21:18:54:376 SpringBootJpa {http-nio-9485-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+21:18:54:392 SpringBootJpa {http-nio-9485-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+21:19:05:344 SpringBootJpa {http-nio-9485-exec-1} ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.SpringBoot.ibats.mapper.UserMapper.findAll] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.SpringBoot.ibats.mapper.UserMapper.findAll
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:214)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:48)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:59)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy61.findAll(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy63.findAll(Unknown Source)
+	at com.SpringBoot.ibats.service.impl.UserServiceImpl.findAll(UserServiceImpl.java:25)
+	at com.SpringBoot.ibats.controller.UserController.findAll(UserController.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+21:35:39:269 SpringBootJpa {restartedMain} INFO  com.start - Starting start on DESKTOP-V5BMFMN with PID 12868 (E:\ideaWork\springbootibatis\target\classes started by Administrator in E:\ideaWork\springbootibatis)
+21:35:39:284 SpringBootJpa {restartedMain} INFO  com.start - The following profiles are active: dev
+21:35:39:331 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2635557d: startup date [Tue Jun 27 21:35:39 CST 2017]; root of context hierarchy
+21:35:39:485 SpringBootJpa {background-preinit} INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+21:35:41:151 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9876ebe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:35:41:533 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9485 (http)
+21:35:41:549 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+21:35:41:549 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+21:35:41:603 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:35:41:603 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2272 ms
+21:35:41:709 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+21:35:41:712 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+21:35:41:713 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+21:35:41:713 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+21:35:41:713 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+21:35:42:083 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2635557d: startup date [Tue Jun 27 21:35:39 CST 2017]; root of context hierarchy
+21:35:42:083 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+21:35:42:130 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAll]}" onto public void com.SpringBoot.ibats.controller.UserController.findAll()
+21:35:42:131 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.home()
+21:35:42:131 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/now]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.hehe()
+21:35:42:134 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+21:35:42:134 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+21:35:42:154 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+21:35:42:186 SpringBootJpa {restartedMain} INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:35:42:347 SpringBootJpa {restartedMain} WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+21:35:42:444 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+21:35:42:444 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+21:35:42:444 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+21:35:42:459 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9485"]
+21:35:42:459 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9485]
+21:35:42:475 SpringBootJpa {restartedMain} INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+21:35:42:490 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9485 (http)
+21:35:42:490 SpringBootJpa {restartedMain} INFO  com.start - Started start in 3.638 seconds (JVM running for 4.033)
+21:35:48:729 SpringBootJpa {http-nio-9485-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+21:35:48:729 SpringBootJpa {http-nio-9485-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+21:35:48:745 SpringBootJpa {http-nio-9485-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+21:35:53:218 SpringBootJpa {http-nio-9485-exec-1} ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.SpringBoot.ibats.mapper.UserMapper.findAll] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.SpringBoot.ibats.mapper.UserMapper.findAll
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:214)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:48)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:59)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy60.findAll(Unknown Source)
+	at com.SpringBoot.ibats.service.impl.UserServiceImpl.findAll(UserServiceImpl.java:25)
+	at com.SpringBoot.ibats.controller.UserController.findAll(UserController.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)

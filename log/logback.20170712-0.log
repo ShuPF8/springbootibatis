@@ -1,0 +1,1058 @@
+12:28:08:578 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Starting Application on SPF-PC with PID 14292 (F:\SPF\idea\springbootibatis\target\classes started by SPF in F:\SPF\idea\springbootibatis)
+12:28:08:581 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - The following profiles are active: dev
+12:28:08:993 SpringBootJpa {background-preinit} INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+12:28:09:122 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2259ecd7: startup date [Wed Jul 12 12:28:09 CST 2017]; root of context hierarchy
+12:28:10:737 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$352710d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:28:11:492 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9482 (http)
+12:28:11:511 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+12:28:11:513 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+12:28:11:654 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:28:11:654 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2532 ms
+12:28:11:879 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+12:28:11:884 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+12:28:11:885 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12:28:11:885 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12:28:11:885 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+12:28:12:639 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2259ecd7: startup date [Wed Jul 12 12:28:09 CST 2017]; root of context hierarchy
+12:28:12:862 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView com.SpringBoot.ibats.controller.IndexController.index(org.springframework.ui.ModelMap)
+12:28:12:864 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/update]}" onto public void com.SpringBoot.ibats.controller.UserController.update()
+12:28:12:865 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/save]}" onto public void com.SpringBoot.ibats.controller.UserController.save()
+12:28:12:865 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAll]}" onto public void com.SpringBoot.ibats.controller.UserController.findAll()
+12:28:12:865 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findpage]}" onto public void com.SpringBoot.ibats.controller.UserController.findpage()
+12:28:12:865 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findId]}" onto public void com.SpringBoot.ibats.controller.UserController.findId()
+12:28:12:866 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/now]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.hehe()
+12:28:12:869 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12:28:12:870 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:28:12:974 SpringBootJpa {restartedMain} INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:28:13:983 SpringBootJpa {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:28:14:190 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+12:28:14:192 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+12:28:14:198 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+12:28:14:241 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9482"]
+12:28:14:258 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9482]
+12:28:14:276 SpringBootJpa {restartedMain} INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+12:28:14:300 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9482 (http)
+12:28:14:306 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Started Application in 6.824 seconds (JVM running for 7.826)
+12:29:13:685 SpringBootJpa {Thread-5} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2259ecd7: startup date [Wed Jul 12 12:28:09 CST 2017]; root of context hierarchy
+12:29:13:687 SpringBootJpa {Thread-5} INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+12:29:13:687 SpringBootJpa {Thread-5} INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+12:29:14:067 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Starting Application on SPF-PC with PID 14292 (F:\SPF\idea\springbootibatis\target\classes started by SPF in F:\SPF\idea\springbootibatis)
+12:29:14:067 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - The following profiles are active: dev
+12:29:14:074 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e592813: startup date [Wed Jul 12 12:29:14 CST 2017]; root of context hierarchy
+12:29:14:693 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$352710d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:29:14:788 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9482 (http)
+12:29:14:789 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+12:29:14:789 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+12:29:14:803 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:29:14:804 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 730 ms
+12:29:14:841 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+12:29:14:841 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+12:29:14:841 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12:29:14:841 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12:29:14:842 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+12:29:15:026 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e592813: startup date [Wed Jul 12 12:29:14 CST 2017]; root of context hierarchy
+12:29:15:032 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView com.SpringBoot.ibats.controller.IndexController.index(org.springframework.ui.ModelMap)
+12:29:15:033 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/update]}" onto public void com.SpringBoot.ibats.controller.UserController.update()
+12:29:15:033 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/save]}" onto public void com.SpringBoot.ibats.controller.UserController.save()
+12:29:15:033 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAll]}" onto public void com.SpringBoot.ibats.controller.UserController.findAll()
+12:29:15:033 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findpage]}" onto public void com.SpringBoot.ibats.controller.UserController.findpage()
+12:29:15:034 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findId]}" onto public void com.SpringBoot.ibats.controller.UserController.findId()
+12:29:15:035 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/now]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.hehe()
+12:29:15:037 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12:29:15:037 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:29:15:062 SpringBootJpa {restartedMain} INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:29:15:271 SpringBootJpa {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:29:15:321 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+12:29:15:322 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+12:29:15:325 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+12:29:15:332 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9482"]
+12:29:15:333 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9482]
+12:29:15:337 SpringBootJpa {restartedMain} INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+12:29:15:343 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9482 (http)
+12:29:15:345 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Started Application in 1.354 seconds (JVM running for 68.865)
+12:29:58:440 SpringBootJpa {http-nio-9482-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+12:29:58:440 SpringBootJpa {http-nio-9482-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+12:29:58:455 SpringBootJpa {http-nio-9482-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+12:29:58:520 SpringBootJpa {http-nio-9482-exec-1} INFO  c.S.i.interceptor.HeadInterceptor - 请求开始地址:/
+12:29:58:557 SpringBootJpa {http-nio-9482-exec-1} INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+12:29:58:617 SpringBootJpa {http-nio-9482-exec-1} INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+12:29:58:617 SpringBootJpa {http-nio-9482-exec-1} INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+12:29:58:618 SpringBootJpa {http-nio-9482-exec-1} INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+12:29:58:618 SpringBootJpa {http-nio-9482-exec-1} INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+12:29:58:623 SpringBootJpa {http-nio-9482-exec-1} INFO  org.thymeleaf.TemplateEngine.CONFIG - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+12:29:58:623 SpringBootJpa {http-nio-9482-exec-1} INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+12:29:58:949 SpringBootJpa {http-nio-9482-exec-1} INFO  c.S.i.interceptor.HeadInterceptor - 请求地址结束，耗时：429 MS
+12:30:11:117 SpringBootJpa {http-nio-9482-exec-4} INFO  c.S.i.interceptor.HeadInterceptor - 请求开始地址:/findAll
+12:30:11:158 SpringBootJpa {http-nio-9482-exec-4} INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:30:11:743 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:745 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:747 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:748 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:750 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:753 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:755 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:757 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:759 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:761 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:763 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:765 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:767 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:769 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:775 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:778 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:781 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:782 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:784 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:787 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:793 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:795 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:796 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:799 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:800 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:802 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:805 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:806 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:808 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:811 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:11:813 SpringBootJpa {Druid-ConnectionPool-Create-2067970652} ERROR c.alibaba.druid.pool.DruidDataSource - create connection error, url: jdbc:mysql:///test, errorCode 1045, state 28000
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3491)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3423)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:910)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3923)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1273)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2031)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1452)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1516)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2080)
+12:30:40:815 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Starting Application on SPF-PC with PID 12032 (F:\SPF\idea\springbootibatis\target\classes started by SPF in F:\SPF\idea\springbootibatis)
+12:30:40:822 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - The following profiles are active: dev
+12:30:41:009 SpringBootJpa {background-preinit} INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+12:30:41:124 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2afc0571: startup date [Wed Jul 12 12:30:41 CST 2017]; root of context hierarchy
+12:30:42:828 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cac705b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:30:43:734 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9482 (http)
+12:30:43:749 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+12:30:43:751 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+12:30:43:885 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:30:43:885 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2761 ms
+12:30:44:469 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+12:30:44:479 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+12:30:44:480 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12:30:44:481 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12:30:44:481 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+12:30:45:150 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2afc0571: startup date [Wed Jul 12 12:30:41 CST 2017]; root of context hierarchy
+12:30:45:228 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView com.SpringBoot.ibats.controller.IndexController.index(org.springframework.ui.ModelMap)
+12:30:45:230 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/update]}" onto public void com.SpringBoot.ibats.controller.UserController.update()
+12:30:45:231 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/save]}" onto public void com.SpringBoot.ibats.controller.UserController.save()
+12:30:45:231 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findpage]}" onto public void com.SpringBoot.ibats.controller.UserController.findpage()
+12:30:45:231 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findId]}" onto public void com.SpringBoot.ibats.controller.UserController.findId()
+12:30:45:232 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAll]}" onto public void com.SpringBoot.ibats.controller.UserController.findAll()
+12:30:45:232 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/now]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.hehe()
+12:30:45:235 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12:30:45:236 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:30:45:359 SpringBootJpa {restartedMain} INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:30:46:392 SpringBootJpa {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:30:46:582 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+12:30:46:583 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+12:30:46:586 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+12:30:46:604 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9482"]
+12:30:46:619 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9482]
+12:30:46:635 SpringBootJpa {restartedMain} INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+12:30:46:658 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9482 (http)
+12:30:46:668 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Started Application in 6.743 seconds (JVM running for 7.297)
+12:30:47:275 SpringBootJpa {http-nio-9482-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+12:30:47:276 SpringBootJpa {http-nio-9482-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+12:30:47:302 SpringBootJpa {http-nio-9482-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+12:30:47:328 SpringBootJpa {http-nio-9482-exec-1} INFO  c.S.i.interceptor.HeadInterceptor - 请求开始地址:/findAll
+12:30:47:431 SpringBootJpa {http-nio-9482-exec-1} INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:30:47:939 SpringBootJpa {http-nio-9482-exec-1} INFO  c.S.i.interceptor.HeadInterceptor - 请求地址结束，耗时：611 MS
+12:30:54:716 SpringBootJpa {http-nio-9482-exec-2} INFO  c.S.i.interceptor.HeadInterceptor - 请求开始地址:/findAll
+12:30:54:718 SpringBootJpa {http-nio-9482-exec-2} INFO  c.S.i.interceptor.HeadInterceptor - 请求地址结束，耗时：2 MS
+12:31:07:548 SpringBootJpa {http-nio-9482-exec-6} INFO  c.S.i.interceptor.HeadInterceptor - 请求开始地址:/findAll
+12:31:07:551 SpringBootJpa {http-nio-9482-exec-6} INFO  c.S.i.interceptor.HeadInterceptor - 请求地址结束，耗时：3 MS
+12:31:07:879 SpringBootJpa {Thread-5} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2afc0571: startup date [Wed Jul 12 12:30:41 CST 2017]; root of context hierarchy
+12:31:07:880 SpringBootJpa {Thread-5} INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+12:31:07:881 SpringBootJpa {Thread-5} INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+12:31:07:885 SpringBootJpa {Thread-5} INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+12:31:08:298 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Starting Application on SPF-PC with PID 12032 (F:\SPF\idea\springbootibatis\target\classes started by SPF in F:\SPF\idea\springbootibatis)
+12:31:08:298 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - The following profiles are active: dev
+12:31:08:301 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2d4355ce: startup date [Wed Jul 12 12:31:08 CST 2017]; root of context hierarchy
+12:31:08:955 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cac705b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:31:09:051 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9482 (http)
+12:31:09:052 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+12:31:09:052 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+12:31:09:067 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:31:09:068 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 767 ms
+12:31:09:388 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+12:31:09:389 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+12:31:09:389 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12:31:09:389 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12:31:09:389 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+12:31:09:668 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2d4355ce: startup date [Wed Jul 12 12:31:08 CST 2017]; root of context hierarchy
+12:31:09:678 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView com.SpringBoot.ibats.controller.IndexController.index(org.springframework.ui.ModelMap)
+12:31:09:679 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/update]}" onto public void com.SpringBoot.ibats.controller.UserController.update()
+12:31:09:679 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/save]}" onto public void com.SpringBoot.ibats.controller.UserController.save()
+12:31:09:679 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findpage]}" onto public void com.SpringBoot.ibats.controller.UserController.findpage()
+12:31:09:679 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findId]}" onto public void com.SpringBoot.ibats.controller.UserController.findId()
+12:31:09:680 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAll]}" onto public void com.SpringBoot.ibats.controller.UserController.findAll()
+12:31:09:682 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/now]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.hehe()
+12:31:09:684 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12:31:09:685 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:31:09:710 SpringBootJpa {restartedMain} INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:31:09:942 SpringBootJpa {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:31:09:992 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+12:31:09:994 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+12:31:09:997 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+12:31:10:004 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9482"]
+12:31:10:005 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9482]
+12:31:10:010 SpringBootJpa {restartedMain} INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+12:31:10:017 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9482 (http)
+12:31:10:019 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Started Application in 1.777 seconds (JVM running for 30.647)
+12:31:13:507 SpringBootJpa {http-nio-9482-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+12:31:13:507 SpringBootJpa {http-nio-9482-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+12:31:13:510 SpringBootJpa {http-nio-9482-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 3 ms
+12:31:13:511 SpringBootJpa {http-nio-9482-exec-1} INFO  c.S.i.interceptor.HeadInterceptor - 请求开始地址:/findAll
+12:31:13:526 SpringBootJpa {http-nio-9482-exec-1} INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+12:31:13:534 SpringBootJpa {http-nio-9482-exec-1} INFO  c.S.i.interceptor.HeadInterceptor - 请求地址结束，耗时：23 MS
+12:39:53:362 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Starting Application on SPF-PC with PID 9148 (F:\SPF\idea\springbootibatis\target\classes started by SPF in F:\SPF\idea\springbootibatis)
+12:39:53:366 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - The following profiles are active: dev
+12:39:53:661 SpringBootJpa {background-preinit} INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+12:39:54:094 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7747aca6: startup date [Wed Jul 12 12:39:54 CST 2017]; root of context hierarchy
+12:39:56:759 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$768ee4dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:39:57:426 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9482 (http)
+12:39:57:440 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+12:39:57:442 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+12:39:57:611 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:39:57:611 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3517 ms
+12:39:57:828 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+12:39:57:834 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+12:39:57:835 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12:39:57:835 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12:39:57:835 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+12:39:58:553 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7747aca6: startup date [Wed Jul 12 12:39:54 CST 2017]; root of context hierarchy
+12:39:58:797 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView com.SpringBoot.ibats.controller.IndexController.index(org.springframework.ui.ModelMap)
+12:39:58:800 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/update]}" onto public void com.SpringBoot.ibats.controller.UserController.update()
+12:39:58:800 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/save]}" onto public void com.SpringBoot.ibats.controller.UserController.save()
+12:39:58:801 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAll]}" onto public void com.SpringBoot.ibats.controller.UserController.findAll()
+12:39:58:801 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findpage]}" onto public void com.SpringBoot.ibats.controller.UserController.findpage()
+12:39:58:802 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findId]}" onto public void com.SpringBoot.ibats.controller.UserController.findId()
+12:39:58:802 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/now]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.hehe()
+12:39:58:806 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12:39:58:806 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:39:58:944 SpringBootJpa {restartedMain} INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:39:59:996 SpringBootJpa {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:40:00:240 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+12:40:00:242 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+12:40:00:249 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+12:40:00:271 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9482"]
+12:40:00:287 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9482]
+12:40:00:306 SpringBootJpa {restartedMain} INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+12:40:00:337 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9482 (http)
+12:40:00:344 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Started Application in 7.921 seconds (JVM running for 9.119)
+12:40:06:257 SpringBootJpa {http-nio-9482-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+12:40:06:257 SpringBootJpa {http-nio-9482-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+12:40:06:277 SpringBootJpa {http-nio-9482-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+12:40:06:299 SpringBootJpa {http-nio-9482-exec-1} INFO  c.S.i.interceptor.HeadInterceptor - 请求开始地址:/findAll
+12:40:06:384 SpringBootJpa {http-nio-9482-exec-1} INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:40:06:710 SpringBootJpa {http-nio-9482-exec-1} INFO  c.S.i.interceptor.HeadInterceptor - 请求地址结束，耗时：411 MS
+12:40:18:023 SpringBootJpa {Thread-5} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7747aca6: startup date [Wed Jul 12 12:39:54 CST 2017]; root of context hierarchy
+12:40:18:025 SpringBootJpa {Thread-5} INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+12:40:18:026 SpringBootJpa {Thread-5} INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+12:40:18:032 SpringBootJpa {Thread-5} INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+12:40:18:755 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Starting Application on SPF-PC with PID 9148 (F:\SPF\idea\springbootibatis\target\classes started by SPF in F:\SPF\idea\springbootibatis)
+12:40:18:755 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - The following profiles are active: dev
+12:40:18:760 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2277386: startup date [Wed Jul 12 12:40:18 CST 2017]; root of context hierarchy
+12:40:19:613 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$768ee4dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:40:19:761 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9482 (http)
+12:40:19:762 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+12:40:19:765 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+12:40:19:779 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:40:19:779 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1020 ms
+12:40:19:828 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+12:40:19:829 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+12:40:19:829 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12:40:19:829 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12:40:19:829 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+12:40:20:159 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2277386: startup date [Wed Jul 12 12:40:18 CST 2017]; root of context hierarchy
+12:40:20:170 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView com.SpringBoot.ibats.controller.IndexController.index(org.springframework.ui.ModelMap)
+12:40:20:171 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/update]}" onto public void com.SpringBoot.ibats.controller.UserController.update()
+12:40:20:171 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/save]}" onto public void com.SpringBoot.ibats.controller.UserController.save()
+12:40:20:172 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAll]}" onto public void com.SpringBoot.ibats.controller.UserController.findAll()
+12:40:20:175 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findpage]}" onto public void com.SpringBoot.ibats.controller.UserController.findpage()
+12:40:20:175 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findId]}" onto public void com.SpringBoot.ibats.controller.UserController.findId()
+12:40:20:178 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/now]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.hehe()
+12:40:20:183 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12:40:20:183 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:40:20:218 SpringBootJpa {restartedMain} INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:40:20:629 SpringBootJpa {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:40:20:695 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+12:40:20:696 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+12:40:20:700 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+12:40:20:707 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9482"]
+12:40:20:708 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9482]
+12:40:20:721 SpringBootJpa {restartedMain} INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+12:40:20:732 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9482 (http)
+12:40:20:734 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Started Application in 2.067 seconds (JVM running for 29.509)
+12:40:23:895 SpringBootJpa {http-nio-9482-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+12:40:23:895 SpringBootJpa {http-nio-9482-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+12:40:23:899 SpringBootJpa {http-nio-9482-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+12:40:23:902 SpringBootJpa {http-nio-9482-exec-1} INFO  c.S.i.interceptor.HeadInterceptor - 请求开始地址:/findAll
+12:40:23:968 SpringBootJpa {http-nio-9482-exec-1} INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+12:40:24:057 SpringBootJpa {http-nio-9482-exec-1} INFO  c.S.i.interceptor.HeadInterceptor - 请求地址结束，耗时：155 MS
+12:40:24:308 SpringBootJpa {Thread-10} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2277386: startup date [Wed Jul 12 12:40:18 CST 2017]; root of context hierarchy
+12:40:24:310 SpringBootJpa {Thread-10} INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+12:40:24:310 SpringBootJpa {Thread-10} INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+12:40:24:312 SpringBootJpa {Thread-10} INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+12:40:24:673 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Starting Application on SPF-PC with PID 9148 (F:\SPF\idea\springbootibatis\target\classes started by SPF in F:\SPF\idea\springbootibatis)
+12:40:24:673 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - The following profiles are active: dev
+12:40:24:675 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799f3648: startup date [Wed Jul 12 12:40:24 CST 2017]; root of context hierarchy
+12:40:25:345 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$768ee4dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:40:26:431 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9482 (http)
+12:40:26:431 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+12:40:26:432 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+12:40:26:513 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:40:26:603 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1928 ms
+12:40:26:652 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+12:40:26:652 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+12:40:26:652 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12:40:26:653 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12:40:26:653 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+12:40:26:959 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799f3648: startup date [Wed Jul 12 12:40:24 CST 2017]; root of context hierarchy
+12:40:26:967 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView com.SpringBoot.ibats.controller.IndexController.index(org.springframework.ui.ModelMap)
+12:40:26:968 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/update]}" onto public void com.SpringBoot.ibats.controller.UserController.update()
+12:40:26:968 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/save]}" onto public void com.SpringBoot.ibats.controller.UserController.save()
+12:40:26:968 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAll]}" onto public void com.SpringBoot.ibats.controller.UserController.findAll()
+12:40:26:968 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findpage]}" onto public void com.SpringBoot.ibats.controller.UserController.findpage()
+12:40:26:969 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findId]}" onto public void com.SpringBoot.ibats.controller.UserController.findId()
+12:40:26:969 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/now]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.hehe()
+12:40:26:970 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12:40:26:971 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:40:27:000 SpringBootJpa {restartedMain} INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:40:27:283 SpringBootJpa {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:40:27:332 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+12:40:27:333 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+12:40:27:336 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+12:40:27:343 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9482"]
+12:40:27:344 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9482]
+12:40:27:348 SpringBootJpa {restartedMain} INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+12:40:27:383 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9482 (http)
+12:40:27:394 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Started Application in 2.773 seconds (JVM running for 36.169)
+12:40:28:709 SpringBootJpa {Thread-15} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@799f3648: startup date [Wed Jul 12 12:40:24 CST 2017]; root of context hierarchy
+12:40:28:711 SpringBootJpa {Thread-15} INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+12:40:28:711 SpringBootJpa {Thread-15} INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+12:40:29:150 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Starting Application on SPF-PC with PID 9148 (F:\SPF\idea\springbootibatis\target\classes started by SPF in F:\SPF\idea\springbootibatis)
+12:40:29:150 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - The following profiles are active: dev
+12:40:29:153 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20cd9c4a: startup date [Wed Jul 12 12:40:29 CST 2017]; root of context hierarchy
+12:40:29:855 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$768ee4dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:40:29:978 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9482 (http)
+12:40:29:979 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+12:40:29:979 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+12:40:30:051 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:40:30:055 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 902 ms
+12:40:30:121 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+12:40:30:122 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+12:40:30:122 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12:40:30:123 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12:40:30:124 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+12:40:30:325 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20cd9c4a: startup date [Wed Jul 12 12:40:29 CST 2017]; root of context hierarchy
+12:40:30:333 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView com.SpringBoot.ibats.controller.IndexController.index(org.springframework.ui.ModelMap)
+12:40:30:333 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/update]}" onto public void com.SpringBoot.ibats.controller.UserController.update()
+12:40:30:334 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/save]}" onto public void com.SpringBoot.ibats.controller.UserController.save()
+12:40:30:334 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findAll]}" onto public void com.SpringBoot.ibats.controller.UserController.findAll()
+12:40:30:334 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findpage]}" onto public void com.SpringBoot.ibats.controller.UserController.findpage()
+12:40:30:334 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/findId]}" onto public void com.SpringBoot.ibats.controller.UserController.findId()
+12:40:30:335 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/now]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.hehe()
+12:40:30:336 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12:40:30:336 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:40:30:360 SpringBootJpa {restartedMain} INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:40:30:573 SpringBootJpa {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:40:30:621 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+12:40:30:622 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+12:40:30:624 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+12:40:30:630 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9482"]
+12:40:30:631 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9482]
+12:40:30:635 SpringBootJpa {restartedMain} INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+12:40:30:643 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9482 (http)
+12:40:30:645 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Started Application in 1.569 seconds (JVM running for 39.42)
+12:40:35:571 SpringBootJpa {http-nio-9482-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+12:40:35:571 SpringBootJpa {http-nio-9482-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+12:40:35:573 SpringBootJpa {http-nio-9482-exec-1} INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 1 ms
+12:40:35:574 SpringBootJpa {http-nio-9482-exec-1} INFO  c.S.i.interceptor.HeadInterceptor - 请求开始地址:/findAll
+12:40:35:578 SpringBootJpa {http-nio-9482-exec-1} INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+12:40:35:587 SpringBootJpa {http-nio-9482-exec-1} INFO  c.S.i.interceptor.HeadInterceptor - 请求地址结束，耗时：13 MS
+12:41:00:517 SpringBootJpa {Thread-20} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20cd9c4a: startup date [Wed Jul 12 12:40:29 CST 2017]; root of context hierarchy
+12:41:00:519 SpringBootJpa {Thread-20} INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+12:41:00:519 SpringBootJpa {Thread-20} INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+12:41:00:521 SpringBootJpa {Thread-20} INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed
+12:41:00:880 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Starting Application on SPF-PC with PID 9148 (F:\SPF\idea\springbootibatis\target\classes started by SPF in F:\SPF\idea\springbootibatis)
+12:41:00:881 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - The following profiles are active: dev
+12:41:00:890 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44f944b2: startup date [Wed Jul 12 12:41:00 CST 2017]; root of context hierarchy
+12:41:01:449 SpringBootJpa {restartedMain} INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$768ee4dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:41:01:528 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9482 (http)
+12:41:01:529 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+12:41:01:529 SpringBootJpa {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.11
+12:41:01:546 SpringBootJpa {localhost-startStop-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:41:01:547 SpringBootJpa {localhost-startStop-1} INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 657 ms
+12:41:01:585 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+12:41:01:585 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+12:41:01:586 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12:41:01:586 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12:41:01:586 SpringBootJpa {localhost-startStop-1} INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+12:41:01:785 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44f944b2: startup date [Wed Jul 12 12:41:00 CST 2017]; root of context hierarchy
+12:41:01:791 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView com.SpringBoot.ibats.controller.IndexController.index(org.springframework.ui.ModelMap)
+12:41:01:792 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/now]}" onto java.lang.String com.SpringBoot.ibats.test.Test1.hehe()
+12:41:01:793 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12:41:01:793 SpringBootJpa {restartedMain} INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12:41:01:812 SpringBootJpa {restartedMain} INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12:41:01:997 SpringBootJpa {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:41:02:036 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+12:41:02:037 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+12:41:02:039 SpringBootJpa {restartedMain} INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+12:41:02:045 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9482"]
+12:41:02:045 SpringBootJpa {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-9482]
+12:41:02:049 SpringBootJpa {restartedMain} INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+12:41:02:058 SpringBootJpa {restartedMain} INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9482 (http)
+12:41:02:060 SpringBootJpa {restartedMain} INFO  com.SpringBoot.ibats.Application - Started Application in 1.244 seconds (JVM running for 70.834)
